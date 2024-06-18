@@ -1,0 +1,36 @@
+name: inshorts
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.6
+  card_swiper: ^3.0.1
+  http: ^1.2.0
+  webview_flutter: ^4.2.2
+  sqflite: ^2.3.2
+  path: ^1.8.0
+  flutter_launcher_icons: ^0.13.1
+
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logo.jpeg"
+
+flutter: 
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
